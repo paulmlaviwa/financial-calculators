@@ -24,8 +24,6 @@ public class mortgage_calculator {
 
         double totalInterest = (monthlyPayment * loanTerm) - principal;
         System.out.printf("Total interest paid over the life of the loan is $%.2f \n", totalInterest);
-
-        // System.out.println("Your monthly payment is " + mon);
     }
     public static double calculateMonthlyPayment(double principal, double annualInterestRate, double loanTerm){
         double monthlyPayment = 0;
