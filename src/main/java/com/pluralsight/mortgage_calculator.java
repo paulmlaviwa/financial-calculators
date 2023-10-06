@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class mortgage_calculator {
 
 
-    public static void main(String[] args) {
+    public static void main() {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter your Loan Amount (P): ");
         double principal = myScanner.nextDouble();
