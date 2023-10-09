@@ -1,6 +1,6 @@
 package com.pluralsight;
 import java.util.Scanner;
-public class financial_calculators {
+public class FinancialCalculators {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
@@ -9,11 +9,11 @@ public class financial_calculators {
         int calculatorSelected = myScanner.nextInt();
 
         if (calculatorSelected == 1){
-            mortgage_calculator myCalculator = new mortgage_calculator();
+            MortgageCalculator myCalculator = new MortgageCalculator();
             myCalculator.main();
         }
         else if (calculatorSelected == 2){
-            future_value_calculator myCalculator = new future_value_calculator();
+            FutureValueCalculator myCalculator = new FutureValueCalculator();
             myCalculator.main();
         }
         else {

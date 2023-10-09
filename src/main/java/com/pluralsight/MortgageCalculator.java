@@ -1,7 +1,7 @@
 package com.pluralsight;
 import java.util.Scanner;
 
-public class mortgage_calculator {
+public class MortgageCalculator {
 
 
     public static void main() {

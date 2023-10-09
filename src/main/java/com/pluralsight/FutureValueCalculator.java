@@ -1,7 +1,7 @@
 package com.pluralsight;
 import java.util.Scanner;
 
-public class future_value_calculator {
+public class FutureValueCalculator {
 
     public static void main() {
         Scanner myScanner = new Scanner(System.in);
